@@ -8,6 +8,7 @@ function Popup(props) {
 
 Popup.defaultProps = {
   ...Modal.defaultProps,
+  timeout: 3000,
   className: styles.content,
   enterClassName: styles.enter,
   enterActiveClassName: styles.enterActive,
