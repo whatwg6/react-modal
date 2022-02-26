@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
-import Modal from "../components/Modal";
-import Popup from "../components/Popup";
+import Modal from "./components/Modal";
+import Popup from "./components/Popup";
 
 export default function App() {
   const [show1, setShow1] = useState(false);
